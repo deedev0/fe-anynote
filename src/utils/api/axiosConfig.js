@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://10.10.10.12:8080',
+  baseURL: 'http://10.10.10.12:8080/api',
   withCredentials: true,
 });
 
